@@ -1,0 +1,52 @@
+{
+  "name": "wechat-app-template",
+  "version": "1.0.0",
+  "description": "A Wechat App Template Project",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp dev",
+    "tosass": "gulp tosass",
+    "lint": "eslint ./src --ext .js,.wxs",
+    "lint:fix": "eslint ./src --ext .js,.wxs --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayson991/wechat-app-template"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "babel",
+    "eslint",
+    "postcss",
+    "wechat-app-template"
+  ],
+  "author": "Jayson Wu <wulingjie991@outlook.com>",
+  "homepage": "https://github.com/jayson991/wechat-app-template",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "autoprefixer": "^10.0.4",
+    "babel-eslint": "^10.1.0",
+    "del": "^6.0.0",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-jsonminify": "^1.1.0",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-tap": "^2.0.0",
+    "gulp-uglifycss": "^1.1.0",
+    "postcss": "^8.1.10"
+  }
+}
