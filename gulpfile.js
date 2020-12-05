@@ -160,9 +160,9 @@ gulp.task('watch', () => {
   gulp.watch('./src/**/*.{scss,wxss}', gulp.series('sass'))
 })
 
-gulp.task('clean', () => del('./bundle/**'))
+gulp.task('clean', async () => await del('./bundle/*/'))
 
-gulp.task('clean:wxss', () => del('./src/**/*.wxss'))
+gulp.task('clean:wxss', async () => await del('./src/**/*.wxss'))
 
 gulp.task('dev', gulp.series('watch'))
 
