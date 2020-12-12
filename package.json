@@ -26,23 +26,23 @@
   "author": "Jayson Wu <wulingjie991@outlook.com>",
   "homepage": "https://github.com/jayson991/wechat-app-template",
   "devDependencies": {
-    "@babel/core": "^7.12.9",
-    "@babel/preset-env": "^7.12.7",
-    "autoprefixer": "^10.0.4",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "autoprefixer": "^10.1.0",
     "babel-eslint": "^10.1.0",
     "del": "^6.0.0",
-    "eslint": "^7.14.0",
-    "eslint-config-prettier": "^6.15.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-prettier": "^3.2.0",
     "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
     "gulp-jsonminify": "^1.1.0",
     "gulp-postcss": "^9.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.1.0",
     "gulp-tap": "^2.0.0",
     "gulp-uglifycss": "^1.1.0",
-    "postcss": "^8.1.14"
+    "postcss": "^8.2.1"
   },
   "dependencies": {
     "prettier": "^2.2.1"
