@@ -70,7 +70,7 @@
     // 强制在 function 的左括号之前使用一致的空格
     "space-before-function-paren": [
       2,
-      "always"
+      "never"
     ],
     // 禁止或强制在单行代码块中使用空格(禁用)
     "block-spacing": [

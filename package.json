@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jayson991/wechat-app-template"
+    "url": "git+https://github.com/jayson991/wechat-app-template"
   },
   "keywords": [
     "gulp",
@@ -28,11 +28,11 @@
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
-    "autoprefixer": "^10.2.0",
+    "autoprefixer": "^10.2.3",
     "babel-eslint": "^10.1.0",
     "del": "^6.0.0",
-    "eslint": "^7.17.0",
-    "eslint-config-prettier": "^7.1.0",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
     "gulp": "^4.0.2",
     "gulp-dart-sass": "^1.0.2",
@@ -42,9 +42,7 @@
     "gulp-replace": "^1.0.0",
     "gulp-tap": "^2.0.0",
     "gulp-uglifycss": "^1.1.0",
-    "postcss": "^8.2.2"
-  },
-  "dependencies": {
+    "postcss": "^8.2.4",
     "prettier": "^2.2.1"
   }
 }
