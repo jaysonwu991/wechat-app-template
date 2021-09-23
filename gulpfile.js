@@ -166,8 +166,8 @@ gulp.task('clean:wxss', async() => await del('./src/**/*.wxss'));
 
 gulp.task('dev', gulp.series('watch'));
 
-gulp.task('prod', gulp.series('clean', 'copy'));
+gulp.task('prod', gulp.series('clean', 'copy', 'sass'));
 
 gulp.task('tosass', gulp.series('wxsstosass', 'clean:wxss'));
 
-gulp.task('default', gulp.series('clean', 'copy'));
+gulp.task('default', gulp.series('clean', 'copy', 'sass'));
